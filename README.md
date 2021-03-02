@@ -1,6 +1,9 @@
 ## MERN-Docker - Starter for building MERN Apps using Docker
 
+Thank you!!! https://github.com/sujaykundu777/mern-docker
+
 ![MERN DOCKER diagram](https://github.com/sujaykundu777/mern-docker/blob/master/3-tier-diagram.png?raw=true)
+
 ### Prerequisites:
 
 You must have Docker Installed in your System !
@@ -52,6 +55,7 @@ Run the app using :
 The App should be up at http://localhost:8080
 
 ### Build the image for server :
+
 docker build -t myapp-server:1 .
 docker images
 docker run --name "myapp-server" -p 80:8080 myapp-server:1
